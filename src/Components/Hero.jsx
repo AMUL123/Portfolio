@@ -22,7 +22,7 @@ const Hero = () => {
             >
               My Projects
             </a>
-            <a href='#projects'
+            <a href='#contact'
               className='bg-white text-blue-700 px-6 py-3 rounded-lg shadow-md hover:bg-gray-200 transition-transform transform hover:scale-105'
             >
               Contact Me

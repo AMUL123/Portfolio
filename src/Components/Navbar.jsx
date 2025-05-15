@@ -9,10 +9,10 @@ const Navbar = () => {
 
         {/*Desktop Menu*/}
         <ul className='hidden md:flex  space-x-6'>
-          <li className='hover:text-gray-300 cursor-pointer'>Home</li>
-          <li className='hover:text-gray-300 cursor-pointer'>Projects</li>
-          <li className='hover:text-gray-300 cursor-pointer'>About</li>
-          <li className='hover:text-gray-300 cursor-pointer'>Contact</li>
+          <li className='hover:text-gray-300 cursor-pointer'><a href="#home">Home</a></li>
+          <li className='hover:text-gray-300 cursor-pointer'><a href="#projects">Projects</a></li>
+          <li className='hover:text-gray-300 cursor-pointer'><a href="#about">About</a></li>
+          <li className='hover:text-gray-300 cursor-pointer'><a href="#contact">Contact</a></li>
         </ul>
 
         {/*Mobile Menu Button*/}
@@ -23,11 +23,11 @@ const Navbar = () => {
       {/*Mobile Menu DropDown*/}
       {isOpen && (
         <ul className='md:hidden bg-blue-400 text-center space-y-2 py-4'>
-        <li className='hover:text-gray-300 cursor-pointer'>Home</li>
-        <li className='hover:text-gray-300 cursor-pointer'>Projects</li>
-        <li className='hover:text-gray-300 cursor-pointer'>About</li>
-        <li className='hover:text-gray-300 cursor-pointer'>Contact</li>
-      </ul>
+          <li className='hover:text-gray-300 cursor-pointer'><a href="#home">Home</a></li>
+          <li className='hover:text-gray-300 cursor-pointer'><a href="#projects">Projects</a></li>
+          <li className='hover:text-gray-300 cursor-pointer'><a href="#about">About</a></li>
+          <li className='hover:text-gray-300 cursor-pointer'><a href="#contact">Contact</a></li>
+        </ul>
       )}
     </nav>
 

@@ -3,11 +3,11 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const projects = [
   {
-    title: "Netflix Clone",
-    description: "A fully responsive Netflix UI clone with movie previews and details.",
+    title: "Student ID-CARD Generator",
+    description: "A responsive web app that lets users create customized student ID cards with real-time previews. Features include dynamic form inputs, template switching, QR code generation, and PNG download. Built using ReactJS with modern UI styling and interactive components.",
     tech: ["React", "Tailwind", "TMDB API"],
-    repo: "https://github.com/AMUL123/Netflix-Clone",
-    live: "https://amul123.github.io/Netflix-Clone/"
+    repo: "https://github.com/AMUL123/student-id-card-vite",
+    live: "https://student-id-card-vite-dxn6m4ndb-priyanshu-s-projects-adba41b1.vercel.app/"
   },
   {
     title: "To-Do List App",

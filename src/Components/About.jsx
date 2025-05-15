@@ -8,7 +8,6 @@ const About = () => {
     { name: "CSS", icon: <FaCss3Alt />, level: "w-[85%]" },
     { name: "React", icon: <FaReact />, level: "w-[80%]" },
     { name: "Node.js", icon: <FaNodeJs />, level: "w-[75%]" },
-    { name: "AWS", icon: <FaAws />, level: "w-[0%]" },
     { name: "Tailwind", icon: <SiTailwindcss />, level: "w-[85%]" },
     { name: "MongoDB", icon: <SiMongodb />, level: "w-[70%]" },
   ];
